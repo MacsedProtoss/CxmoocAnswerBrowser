@@ -1,0 +1,621 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 52;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4BEACF92244C497F00FAE6A0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BEACF91244C497F00FAE6A0 /* AppDelegate.swift */; };
+		4BEACF94244C497F00FAE6A0 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BEACF93244C497F00FAE6A0 /* ContentView.swift */; };
+		4BEACF96244C498400FAE6A0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4BEACF95244C498400FAE6A0 /* Assets.xcassets */; };
+		4BEACF99244C498400FAE6A0 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4BEACF98244C498400FAE6A0 /* Preview Assets.xcassets */; };
+		4BEACF9C244C498400FAE6A0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4BEACF9A244C498400FAE6A0 /* Main.storyboard */; };
+		4BEACFA8244C498400FAE6A0 /* CxmoocAnswerBrowserTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BEACFA7244C498400FAE6A0 /* CxmoocAnswerBrowserTests.swift */; };
+		4BEACFB3244C498400FAE6A0 /* CxmoocAnswerBrowserUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BEACFB2244C498400FAE6A0 /* CxmoocAnswerBrowserUITests.swift */; };
+		4BEACFC2244C4CE000FAE6A0 /* Alamofire in Frameworks */ = {isa = PBXBuildFile; productRef = 4BEACFC1244C4CE000FAE6A0 /* Alamofire */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		4BEACFA4244C498400FAE6A0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4BEACF86244C497F00FAE6A0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4BEACF8D244C497F00FAE6A0;
+			remoteInfo = CxmoocAnswerBrowser;
+		};
+		4BEACFAF244C498400FAE6A0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4BEACF86244C497F00FAE6A0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4BEACF8D244C497F00FAE6A0;
+			remoteInfo = CxmoocAnswerBrowser;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		4BEACF8E244C497F00FAE6A0 /* CxmoocAnswerBrowser.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CxmoocAnswerBrowser.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		4BEACF91244C497F00FAE6A0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		4BEACF93244C497F00FAE6A0 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		4BEACF95244C498400FAE6A0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		4BEACF98244C498400FAE6A0 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		4BEACF9B244C498400FAE6A0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		4BEACF9D244C498400FAE6A0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4BEACF9E244C498400FAE6A0 /* CxmoocAnswerBrowser.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = CxmoocAnswerBrowser.entitlements; sourceTree = "<group>"; };
+		4BEACFA3244C498400FAE6A0 /* CxmoocAnswerBrowserTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CxmoocAnswerBrowserTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		4BEACFA7244C498400FAE6A0 /* CxmoocAnswerBrowserTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CxmoocAnswerBrowserTests.swift; sourceTree = "<group>"; };
+		4BEACFA9244C498400FAE6A0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4BEACFAE244C498400FAE6A0 /* CxmoocAnswerBrowserUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CxmoocAnswerBrowserUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		4BEACFB2244C498400FAE6A0 /* CxmoocAnswerBrowserUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CxmoocAnswerBrowserUITests.swift; sourceTree = "<group>"; };
+		4BEACFB4244C498400FAE6A0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4BEACF8B244C497F00FAE6A0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4BEACFC2244C4CE000FAE6A0 /* Alamofire in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4BEACFA0244C498400FAE6A0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4BEACFAB244C498400FAE6A0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4BEACF85244C497F00FAE6A0 = {
+			isa = PBXGroup;
+			children = (
+				4BEACF90244C497F00FAE6A0 /* CxmoocAnswerBrowser */,
+				4BEACFA6244C498400FAE6A0 /* CxmoocAnswerBrowserTests */,
+				4BEACFB1244C498400FAE6A0 /* CxmoocAnswerBrowserUITests */,
+				4BEACF8F244C497F00FAE6A0 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		4BEACF8F244C497F00FAE6A0 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4BEACF8E244C497F00FAE6A0 /* CxmoocAnswerBrowser.app */,
+				4BEACFA3244C498400FAE6A0 /* CxmoocAnswerBrowserTests.xctest */,
+				4BEACFAE244C498400FAE6A0 /* CxmoocAnswerBrowserUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4BEACF90244C497F00FAE6A0 /* CxmoocAnswerBrowser */ = {
+			isa = PBXGroup;
+			children = (
+				4BEACF91244C497F00FAE6A0 /* AppDelegate.swift */,
+				4BEACF93244C497F00FAE6A0 /* ContentView.swift */,
+				4BEACF95244C498400FAE6A0 /* Assets.xcassets */,
+				4BEACF9A244C498400FAE6A0 /* Main.storyboard */,
+				4BEACF9D244C498400FAE6A0 /* Info.plist */,
+				4BEACF9E244C498400FAE6A0 /* CxmoocAnswerBrowser.entitlements */,
+				4BEACF97244C498400FAE6A0 /* Preview Content */,
+			);
+			path = CxmoocAnswerBrowser;
+			sourceTree = "<group>";
+		};
+		4BEACF97244C498400FAE6A0 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				4BEACF98244C498400FAE6A0 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		4BEACFA6244C498400FAE6A0 /* CxmoocAnswerBrowserTests */ = {
+			isa = PBXGroup;
+			children = (
+				4BEACFA7244C498400FAE6A0 /* CxmoocAnswerBrowserTests.swift */,
+				4BEACFA9244C498400FAE6A0 /* Info.plist */,
+			);
+			path = CxmoocAnswerBrowserTests;
+			sourceTree = "<group>";
+		};
+		4BEACFB1244C498400FAE6A0 /* CxmoocAnswerBrowserUITests */ = {
+			isa = PBXGroup;
+			children = (
+				4BEACFB2244C498400FAE6A0 /* CxmoocAnswerBrowserUITests.swift */,
+				4BEACFB4244C498400FAE6A0 /* Info.plist */,
+			);
+			path = CxmoocAnswerBrowserUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4BEACF8D244C497F00FAE6A0 /* CxmoocAnswerBrowser */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4BEACFB7244C498400FAE6A0 /* Build configuration list for PBXNativeTarget "CxmoocAnswerBrowser" */;
+			buildPhases = (
+				4BEACF8A244C497F00FAE6A0 /* Sources */,
+				4BEACF8B244C497F00FAE6A0 /* Frameworks */,
+				4BEACF8C244C497F00FAE6A0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CxmoocAnswerBrowser;
+			packageProductDependencies = (
+				4BEACFC1244C4CE000FAE6A0 /* Alamofire */,
+			);
+			productName = CxmoocAnswerBrowser;
+			productReference = 4BEACF8E244C497F00FAE6A0 /* CxmoocAnswerBrowser.app */;
+			productType = "com.apple.product-type.application";
+		};
+		4BEACFA2244C498400FAE6A0 /* CxmoocAnswerBrowserTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4BEACFBA244C498400FAE6A0 /* Build configuration list for PBXNativeTarget "CxmoocAnswerBrowserTests" */;
+			buildPhases = (
+				4BEACF9F244C498400FAE6A0 /* Sources */,
+				4BEACFA0244C498400FAE6A0 /* Frameworks */,
+				4BEACFA1244C498400FAE6A0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4BEACFA5244C498400FAE6A0 /* PBXTargetDependency */,
+			);
+			name = CxmoocAnswerBrowserTests;
+			productName = CxmoocAnswerBrowserTests;
+			productReference = 4BEACFA3244C498400FAE6A0 /* CxmoocAnswerBrowserTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		4BEACFAD244C498400FAE6A0 /* CxmoocAnswerBrowserUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4BEACFBD244C498400FAE6A0 /* Build configuration list for PBXNativeTarget "CxmoocAnswerBrowserUITests" */;
+			buildPhases = (
+				4BEACFAA244C498400FAE6A0 /* Sources */,
+				4BEACFAB244C498400FAE6A0 /* Frameworks */,
+				4BEACFAC244C498400FAE6A0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4BEACFB0244C498400FAE6A0 /* PBXTargetDependency */,
+			);
+			name = CxmoocAnswerBrowserUITests;
+			productName = CxmoocAnswerBrowserUITests;
+			productReference = 4BEACFAE244C498400FAE6A0 /* CxmoocAnswerBrowserUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4BEACF86244C497F00FAE6A0 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1140;
+				LastUpgradeCheck = 1140;
+				ORGANIZATIONNAME = Macsed;
+				TargetAttributes = {
+					4BEACF8D244C497F00FAE6A0 = {
+						CreatedOnToolsVersion = 11.4.1;
+					};
+					4BEACFA2244C498400FAE6A0 = {
+						CreatedOnToolsVersion = 11.4.1;
+						TestTargetID = 4BEACF8D244C497F00FAE6A0;
+					};
+					4BEACFAD244C498400FAE6A0 = {
+						CreatedOnToolsVersion = 11.4.1;
+						TestTargetID = 4BEACF8D244C497F00FAE6A0;
+					};
+				};
+			};
+			buildConfigurationList = 4BEACF89244C497F00FAE6A0 /* Build configuration list for PBXProject "CxmoocAnswerBrowser" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 4BEACF85244C497F00FAE6A0;
+			packageReferences = (
+				4BEACFC0244C4CE000FAE6A0 /* XCRemoteSwiftPackageReference "Alamofire" */,
+			);
+			productRefGroup = 4BEACF8F244C497F00FAE6A0 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4BEACF8D244C497F00FAE6A0 /* CxmoocAnswerBrowser */,
+				4BEACFA2244C498400FAE6A0 /* CxmoocAnswerBrowserTests */,
+				4BEACFAD244C498400FAE6A0 /* CxmoocAnswerBrowserUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4BEACF8C244C497F00FAE6A0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4BEACF9C244C498400FAE6A0 /* Main.storyboard in Resources */,
+				4BEACF99244C498400FAE6A0 /* Preview Assets.xcassets in Resources */,
+				4BEACF96244C498400FAE6A0 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4BEACFA1244C498400FAE6A0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4BEACFAC244C498400FAE6A0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4BEACF8A244C497F00FAE6A0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4BEACF94244C497F00FAE6A0 /* ContentView.swift in Sources */,
+				4BEACF92244C497F00FAE6A0 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4BEACF9F244C498400FAE6A0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4BEACFA8244C498400FAE6A0 /* CxmoocAnswerBrowserTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4BEACFAA244C498400FAE6A0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4BEACFB3244C498400FAE6A0 /* CxmoocAnswerBrowserUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		4BEACFA5244C498400FAE6A0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4BEACF8D244C497F00FAE6A0 /* CxmoocAnswerBrowser */;
+			targetProxy = 4BEACFA4244C498400FAE6A0 /* PBXContainerItemProxy */;
+		};
+		4BEACFB0244C498400FAE6A0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4BEACF8D244C497F00FAE6A0 /* CxmoocAnswerBrowser */;
+			targetProxy = 4BEACFAF244C498400FAE6A0 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		4BEACF9A244C498400FAE6A0 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4BEACF9B244C498400FAE6A0 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		4BEACFB5244C498400FAE6A0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		4BEACFB6244C498400FAE6A0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		4BEACFB8244C498400FAE6A0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = CxmoocAnswerBrowser/CxmoocAnswerBrowser.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_ASSET_PATHS = "\"CxmoocAnswerBrowser/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = CxmoocAnswerBrowser/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				PRODUCT_BUNDLE_IDENTIFIER = unique.studio.CxmoocAnswerBrowser;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		4BEACFB9244C498400FAE6A0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = CxmoocAnswerBrowser/CxmoocAnswerBrowser.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_ASSET_PATHS = "\"CxmoocAnswerBrowser/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = CxmoocAnswerBrowser/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				PRODUCT_BUNDLE_IDENTIFIER = unique.studio.CxmoocAnswerBrowser;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		4BEACFBB244C498400FAE6A0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = CxmoocAnswerBrowserTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				PRODUCT_BUNDLE_IDENTIFIER = unique.studio.CxmoocAnswerBrowserTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CxmoocAnswerBrowser.app/Contents/MacOS/CxmoocAnswerBrowser";
+			};
+			name = Debug;
+		};
+		4BEACFBC244C498400FAE6A0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = CxmoocAnswerBrowserTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				PRODUCT_BUNDLE_IDENTIFIER = unique.studio.CxmoocAnswerBrowserTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CxmoocAnswerBrowser.app/Contents/MacOS/CxmoocAnswerBrowser";
+			};
+			name = Release;
+		};
+		4BEACFBE244C498400FAE6A0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = CxmoocAnswerBrowserUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = unique.studio.CxmoocAnswerBrowserUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = CxmoocAnswerBrowser;
+			};
+			name = Debug;
+		};
+		4BEACFBF244C498400FAE6A0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = CxmoocAnswerBrowserUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = unique.studio.CxmoocAnswerBrowserUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = CxmoocAnswerBrowser;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4BEACF89244C497F00FAE6A0 /* Build configuration list for PBXProject "CxmoocAnswerBrowser" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4BEACFB5244C498400FAE6A0 /* Debug */,
+				4BEACFB6244C498400FAE6A0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4BEACFB7244C498400FAE6A0 /* Build configuration list for PBXNativeTarget "CxmoocAnswerBrowser" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4BEACFB8244C498400FAE6A0 /* Debug */,
+				4BEACFB9244C498400FAE6A0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4BEACFBA244C498400FAE6A0 /* Build configuration list for PBXNativeTarget "CxmoocAnswerBrowserTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4BEACFBB244C498400FAE6A0 /* Debug */,
+				4BEACFBC244C498400FAE6A0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4BEACFBD244C498400FAE6A0 /* Build configuration list for PBXNativeTarget "CxmoocAnswerBrowserUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4BEACFBE244C498400FAE6A0 /* Debug */,
+				4BEACFBF244C498400FAE6A0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		4BEACFC0244C4CE000FAE6A0 /* XCRemoteSwiftPackageReference "Alamofire" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/Alamofire/Alamofire";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.1.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		4BEACFC1244C4CE000FAE6A0 /* Alamofire */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 4BEACFC0244C4CE000FAE6A0 /* XCRemoteSwiftPackageReference "Alamofire" */;
+			productName = Alamofire;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = 4BEACF86244C497F00FAE6A0 /* Project object */;
+}
